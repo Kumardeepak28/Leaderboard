@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url(./istockphoto-637298374-612x612.jpg); */
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 12rem;
+    border: 2px solid #800000;
+    padding: 15px;
+    
+}
+button {
+    height: 2.5rem;
+    width: 12rem;
+}
+
+#player-list {
+      /* background-color: aqua; */
+      /* padding: 40px; */
+      list-style: none;
+      gap: 60px;
+      margin: 20px;
+      
+}
+#player-list #first-name{
+      margin: 40px;
+}
+#increase {
+   background-color: red;
+   height: 3rem;
+   width: 3rem;
+}
+
+ul li{
+    gap: 40px;
+    padding: 30px;
+    /* background-color: red; */
+}
+
+#increaseScore {
+    background-color: #800000;
+}
