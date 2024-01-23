@@ -11,10 +11,7 @@ function addPlayer (event){
     const country = document.getElementById('country').value
     const score = document.getElementById('score').value
 
-    const playerData = { name: firstName + " " + lastName, 
-        country: country,
-        score: Number(score)
-    }
+    const playerData = { name: firstName + " " + lastName,  country: country, score: Number(score) }
 
     PlayersList.push(playerData)
     PlayersList.sort( (player1, player2) => parseInt(player2.score) - parseInt(player1.score) )
@@ -31,6 +28,7 @@ function addPlayer (event){
         
 
         const increaseScore = document.createElement('button')
+        increaseScore.classList.add("plus")
         const decreaseScore = document.createElement('button')
 
         increaseScore.innerText = 'Increase'
@@ -67,7 +65,10 @@ function refreshList () {
         
 
         const increaseScore = document.createElement('button')
+
+
         const decreaseScore = document.createElement('button')
+
 
         increaseScore.innerText = 'Increase'
         decreaseScore.innerText = 'Decrease'

@@ -30,28 +30,46 @@ button {
 }
 
 #player-list {
-      /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+      background-color: aqua;
       /* padding: 40px; */
       list-style: none;
-      gap: 60px;
-      margin: 20px;
+      gap: 1rem;
+      height: 100vh;
+      /* margin: 20px; */
+      /* border: 3px solid#800000; */
+      /* border-radius: 100px; */
+      width: auto;
+      margin-top: 1rem;
+    justify-content: start;
+    align-items: center;
+
+
       
 }
-#player-list #first-name{
-      margin: 40px;
+
+
+
+li{
+    display: flex;
+    height: 3rem;
+    border: 2pz solid black;
+    background-color: green;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+    width: 90%;
+    border-radius: 5px;
+    padding: 5px;
+
+
 }
-#increase {
-   background-color: red;
-   height: 3rem;
-   width: 3rem;
+ .plus{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid red;
+    border: none;
 }
 
-ul li{
-    gap: 40px;
-    padding: 30px;
-    /* background-color: red; */
-}
-
-#increaseScore {
-    background-color: #800000;
-}
